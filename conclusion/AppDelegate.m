@@ -7,16 +7,42 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AutoScrollViewController.h"
+#import "MLNavigationController.h"
+#import "LeftMenuViewController.h"
+#import "Consts.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
++(AppDelegate *)ShareApp
+{
+    return (AppDelegate *)[UIApplication sharedApplication].delegate;
+}
+-(void)customizeAppearance
+{
+    NSDictionary *navbarTitleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys: [UIColor whiteColor],UITextAttributeTextColor,[UIFont fontWithName:DEFAULT_FONT_NAME size:18],UITextAttributeFont, nil];
+    [[UINavigationBar appearance] setTitleTextAttributes:navbarTitleTextAttributes];
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    
+    [self customizeAppearance];
+    
+    AutoScrollViewController *_homeViewController = [[AutoScrollViewController alloc]init];
+    MLNavigationController *_homeNavigationController=[[MLNavigationController alloc] initWithRootViewController:_homeViewController];
+    LeftMenuViewController *mainMenu=[[LeftMenuViewController alloc]init];
+    _revealController = [[SWRevealViewController alloc] initWithRearViewController:mainMenu frontViewController:_homeNavigationController];
+    self.window.rootViewController=_revealController;
+
     return YES;
 }
 
