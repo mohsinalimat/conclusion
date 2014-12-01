@@ -62,10 +62,36 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    
+    
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
+
+#pragma mark - 弹出手势解锁密码输入框
+- (void)showLLLockViewController:(LLLockViewType)type
+{
+    if(self.window.rootViewController.presentingViewController == nil){
+        
+        LLLog(@"root = %@", self.window.rootViewController.class);
+        LLLog(@"lockVc isBeingPresented = %d", [self.lockVc isBeingPresented]);
+        
+        self.lockVc = [[LLLockViewController alloc] init];
+        self.lockVc.nLockViewType = type;
+        
+        self.lockVc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        
+        [self.window.rootViewController presentViewController:self.lockVc animated:NO completion:^{
+        }];
+        LLLog(@"创建了一个pop=%@", self.lockVc);
+    }
+}
+
+
 
 @end

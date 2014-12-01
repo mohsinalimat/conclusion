@@ -21,6 +21,14 @@
 #import "TableViewTestViewController.h"
 #import "ScrollTestViewController.h"
 #import "CustomHeadViewController.h"
+#import "SphereTagCloudViewController.h"
+#import "PopSelectViewController.h"
+#import "TextFieldResignFirstResponderViewController.h"
+#import "LockFirstViewController.h"
+#import "LockSecondViewController.h"
+#import "TagCloudViewController.h"
+#import "AutoResingCellViewController.h"
+
 
 @interface LeftMenuViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
@@ -38,12 +46,11 @@
     // Do any additional setup after loading the view.
     [self loadNavigationView];
     [self setNavigationTitle:@"Imaginato"];
-    _dataArray = @[@"ScrollView自动无限循环",@"类似FB和TW资料页",@"CoreAnimation可做百分比进度条-波浪效果",@"RefreshControl下拉上拉",@"多级的联系人列表",@"支付宝、微信支付",@"Scan QR Code",@"日期选择器",@"通过剪切图片作为头像",@"表格中下列时放大背景",@"",@""];
-    _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 84, DeviceWidth, DeviceHeight-64) style:UITableViewStylePlain];
+    _dataArray = @[@"ScrollView自动无限循环",@"类似FB和TW资料页",@"CoreAnimation可做百分比进度条-波浪效果",@"RefreshControl下拉上拉",@"多级的联系人列表",@"支付宝、微信支付",@"Scan QR Code",@"日期选择器",@"通过剪切图片作为头像",@"表格中下列时放大背景",@"3D旋转标签云",@"单选弹出视图",@"Input输入收回键盘",@"手势解锁",@"标签云",@"cell自动布局"];
+    _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, DeviceWidth, DeviceHeight-64) style:UITableViewStylePlain];
     [self.view addSubview:_tableView];
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     _tableView.backgroundColor = [UIColor clearColor];
-    _tableView.scrollEnabled = NO;
     _tableView.dataSource  =self;
     _tableView.delegate = self;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(gotoHomePage) name:@"GOTOHOMEPAGE" object:nil];
@@ -201,9 +208,69 @@
                 
             case 10:
             {
+                SphereTagCloudViewController *sphereTagCloudViewController = [[SphereTagCloudViewController alloc]init];
+                MLNavigationController *sphereTagCloudNavigationController=[[MLNavigationController alloc] initWithRootViewController:sphereTagCloudViewController];
+                newFrontController = sphereTagCloudNavigationController;
+                
                 break;
             }
+            case 11:
+            {
+                PopSelectViewController *popSelectViewController = [[PopSelectViewController alloc]init];
+                MLNavigationController *popSelectNavigationController=[[MLNavigationController alloc] initWithRootViewController:popSelectViewController];
+                newFrontController = popSelectNavigationController;
                 
+                break;
+            }
+            case 12:
+            {
+                TextFieldResignFirstResponderViewController *textFieldResignFirstResponderViewController = [[TextFieldResignFirstResponderViewController alloc]init];
+                MLNavigationController *textFieldResignFirstResponderNavigationController=[[MLNavigationController alloc] initWithRootViewController:textFieldResignFirstResponderViewController];
+                newFrontController = textFieldResignFirstResponderNavigationController;
+                
+                break;
+            }
+            case 13:
+            {
+                LockFirstViewController *viewController1;
+                LockSecondViewController *viewController2;
+                viewController1 = [[LockFirstViewController alloc] initWithNibName:nil bundle:nil];
+                viewController1.title = @"首页";
+                viewController2 = [[LockSecondViewController alloc] initWithNibName:nil bundle:nil];
+                viewController2.title = @"设置";
+                UITabBarController *tabBarController = [[UITabBarController alloc] init];
+                tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
+                newFrontController = tabBarController;
+                
+                // 手势解锁相关
+                NSString* pswd = [LLLockPassword loadLockPassword];
+                if (pswd) {
+                    [[AppDelegate ShareApp] showLLLockViewController:LLLockViewTypeCheck];
+                } else {
+                    [[AppDelegate ShareApp] showLLLockViewController:LLLockViewTypeCreate];
+                }
+    
+                
+                break;
+            }
+            case 14:
+            {
+                TagCloudViewController *tagCloudViewController = [[TagCloudViewController alloc]init];
+                MLNavigationController *tagCloudNavigationController=[[MLNavigationController alloc] initWithRootViewController:tagCloudViewController];
+                newFrontController = tagCloudNavigationController;
+                
+                
+                break;
+            }
+            case 15:
+            {
+                AutoResingCellViewController *autoResingCellViewController = [[AutoResingCellViewController alloc]init];
+                MLNavigationController *autoResingCellNavigationController=[[MLNavigationController alloc] initWithRootViewController:autoResingCellViewController];
+                newFrontController = autoResingCellNavigationController;
+                
+                
+                break;
+            }
             default:
                 break;
         }

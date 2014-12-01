@@ -65,6 +65,19 @@
     
     [_navigationView addSubview:leftBarButton];
 }
+
+-(void)loadRightButton
+{
+    UIButton *rightBarButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [rightBarButton setFrame:CGRectMake(DeviceWidth-80.0f, 20.0f, 80.0f, 44.0f)];
+    [rightBarButton addTarget:self action:@selector(goToBackViewController) forControlEvents:UIControlEventTouchUpInside];
+    [rightBarButton setImage:[UIImage imageNamed:@"BackTop"] forState:UIControlStateNormal];
+    rightBarButton.imageEdgeInsets = UIEdgeInsetsMake(0, -30, 0, 0);
+    
+    [_navigationView addSubview:rightBarButton];
+}
+
+
 -(void)goToBackViewController
 {
     [self.navigationController popViewControllerAnimated:YES];

@@ -179,6 +179,43 @@
 		046DDEDF1A29F04600D2046D /* CustomHeadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046DDED81A29F04600D2046D /* CustomHeadViewController.m */; };
 		046DDEE01A29F04600D2046D /* ScrollTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046DDEDA1A29F04600D2046D /* ScrollTestViewController.m */; };
 		046DDEE11A29F04600D2046D /* TableViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046DDEDC1A29F04600D2046D /* TableViewTestViewController.m */; };
+		046DDEEA1A29F55A00D2046D /* DBSphereView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046DDEE71A29F55A00D2046D /* DBSphereView.m */; };
+		046DDEEB1A29F55A00D2046D /* SphereTagCloudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046DDEE91A29F55A00D2046D /* SphereTagCloudViewController.m */; };
+		046DDF0E1A29F84100D2046D /* SGPopSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046DDF081A29F84100D2046D /* SGPopSelectView.m */; };
+		046DDF151A29F89000D2046D /* PopSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046DDF131A29F89000D2046D /* PopSelectViewController.m */; };
+		046DDF161A29F89000D2046D /* PopSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046DDF141A29F89000D2046D /* PopSelectViewController.xib */; };
+		0477E39A1A2C0C9800ED1A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0477E38D1A2C0C9800ED1A42 /* Main.storyboard */; };
+		0477E39D1A2C0C9800ED1A42 /* InputHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3921A2C0C9800ED1A42 /* InputHelper.m */; };
+		0477E3A41A2C0D2D00ED1A42 /* TextFieldResignFirstResponderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3A21A2C0D2D00ED1A42 /* TextFieldResignFirstResponderViewController.m */; };
+		0477E3A51A2C0D2D00ED1A42 /* TextFieldResignFirstResponderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E3A31A2C0D2D00ED1A42 /* TextFieldResignFirstResponderViewController.xib */; };
+		0477E3B61A2C18CF00ED1A42 /* LockFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3A81A2C18CF00ED1A42 /* LockFirstViewController.m */; };
+		0477E3B71A2C18CF00ED1A42 /* LLLockIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3AC1A2C18CF00ED1A42 /* LLLockIndicator.m */; };
+		0477E3B81A2C18CF00ED1A42 /* LLLockPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3AE1A2C18CF00ED1A42 /* LLLockPassword.m */; };
+		0477E3B91A2C18CF00ED1A42 /* LLLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3B01A2C18CF00ED1A42 /* LLLockView.m */; };
+		0477E3BA1A2C18CF00ED1A42 /* LLLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3B21A2C18CF00ED1A42 /* LLLockViewController.m */; };
+		0477E3BB1A2C18CF00ED1A42 /* LLLockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E3B31A2C18CF00ED1A42 /* LLLockViewController.xib */; };
+		0477E3BC1A2C18CF00ED1A42 /* LockSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3B51A2C18CF00ED1A42 /* LockSecondViewController.m */; };
+		0477E3C31A2C21D300ED1A42 /* DKTagCloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3C01A2C21D300ED1A42 /* DKTagCloudView.m */; };
+		0477E3C41A2C21D300ED1A42 /* TagCloudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3C21A2C21D300ED1A42 /* TagCloudViewController.m */; };
+		0477E3DB1A2C305B00ED1A42 /* HTKDynamicResizingCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3C91A2C305B00ED1A42 /* HTKDynamicResizingCollectionViewCell.m */; };
+		0477E3DC1A2C305B00ED1A42 /* HTKDynamicResizingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3CE1A2C305B00ED1A42 /* HTKDynamicResizingTableViewCell.m */; };
+		0477E3DD1A2C305B00ED1A42 /* HTKSampleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3D21A2C305B00ED1A42 /* HTKSampleCollectionViewCell.m */; };
+		0477E3DE1A2C305B00ED1A42 /* HTKSampleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3D41A2C305B00ED1A42 /* HTKSampleTableViewCell.m */; };
+		0477E3DF1A2C305B00ED1A42 /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0477E3D61A2C305B00ED1A42 /* SampleData.plist */; };
+		0477E3E01A2C305B00ED1A42 /* HTKSampleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3D81A2C305B00ED1A42 /* HTKSampleCollectionViewController.m */; };
+		0477E3E11A2C305B00ED1A42 /* HTKSampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3DA1A2C305B00ED1A42 /* HTKSampleTableViewController.m */; };
+		0477E3E41A2C308F00ED1A42 /* AutoResingCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3E31A2C308F00ED1A42 /* AutoResingCellViewController.m */; };
+		0477E3FB1A2C39B800ED1A42 /* GGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3E91A2C39B800ED1A42 /* GGTabBar.m */; };
+		0477E3FC1A2C39B800ED1A42 /* GGTabBarAppearanceKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3EB1A2C39B800ED1A42 /* GGTabBarAppearanceKeys.m */; };
+		0477E3FD1A2C39B800ED1A42 /* GGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3ED1A2C39B800ED1A42 /* GGTabBarController.m */; };
+		0477E3FE1A2C39B800ED1A42 /* TestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3F01A2C39B800ED1A42 /* TestViewController1.m */; };
+		0477E3FF1A2C39B800ED1A42 /* TestViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E3F11A2C39B800ED1A42 /* TestViewController1.xib */; };
+		0477E4001A2C39B800ED1A42 /* TestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3F31A2C39B800ED1A42 /* TestViewController2.m */; };
+		0477E4011A2C39B800ED1A42 /* TestViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E3F41A2C39B800ED1A42 /* TestViewController2.xib */; };
+		0477E4021A2C39B800ED1A42 /* TestViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3F61A2C39B800ED1A42 /* TestViewController3.m */; };
+		0477E4031A2C39B800ED1A42 /* TestViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E3F71A2C39B800ED1A42 /* TestViewController3.xib */; };
+		0477E4041A2C39B800ED1A42 /* TestViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3F91A2C39B800ED1A42 /* TestViewController4.m */; };
+		0477E4051A2C39B800ED1A42 /* TestViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E3FA1A2C39B800ED1A42 /* TestViewController4.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -486,6 +523,76 @@
 		046DDEDA1A29F04600D2046D /* ScrollTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollTestViewController.m; sourceTree = "<group>"; };
 		046DDEDB1A29F04600D2046D /* TableViewTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewTestViewController.h; sourceTree = "<group>"; };
 		046DDEDC1A29F04600D2046D /* TableViewTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewTestViewController.m; sourceTree = "<group>"; };
+		046DDEE41A29F55A00D2046D /* DBMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMatrix.h; sourceTree = "<group>"; };
+		046DDEE51A29F55A00D2046D /* DBPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPoint.h; sourceTree = "<group>"; };
+		046DDEE61A29F55A00D2046D /* DBSphereView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSphereView.h; sourceTree = "<group>"; };
+		046DDEE71A29F55A00D2046D /* DBSphereView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSphereView.m; sourceTree = "<group>"; };
+		046DDEE81A29F55A00D2046D /* SphereTagCloudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphereTagCloudViewController.h; sourceTree = "<group>"; };
+		046DDEE91A29F55A00D2046D /* SphereTagCloudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphereTagCloudViewController.m; sourceTree = "<group>"; };
+		046DDF071A29F84100D2046D /* SGPopSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPopSelectView.h; sourceTree = "<group>"; };
+		046DDF081A29F84100D2046D /* SGPopSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPopSelectView.m; sourceTree = "<group>"; };
+		046DDF121A29F89000D2046D /* PopSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopSelectViewController.h; sourceTree = "<group>"; };
+		046DDF131A29F89000D2046D /* PopSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopSelectViewController.m; sourceTree = "<group>"; };
+		046DDF141A29F89000D2046D /* PopSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopSelectViewController.xib; sourceTree = "<group>"; };
+		0477E38E1A2C0C9800ED1A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0477E3911A2C0C9800ED1A42 /* InputHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHelper.h; sourceTree = "<group>"; };
+		0477E3921A2C0C9800ED1A42 /* InputHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHelper.m; sourceTree = "<group>"; };
+		0477E3A11A2C0D2D00ED1A42 /* TextFieldResignFirstResponderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldResignFirstResponderViewController.h; sourceTree = "<group>"; };
+		0477E3A21A2C0D2D00ED1A42 /* TextFieldResignFirstResponderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldResignFirstResponderViewController.m; sourceTree = "<group>"; };
+		0477E3A31A2C0D2D00ED1A42 /* TextFieldResignFirstResponderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldResignFirstResponderViewController.xib; sourceTree = "<group>"; };
+		0477E3A71A2C18CF00ED1A42 /* LockFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockFirstViewController.h; sourceTree = "<group>"; };
+		0477E3A81A2C18CF00ED1A42 /* LockFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockFirstViewController.m; sourceTree = "<group>"; };
+		0477E3AA1A2C18CF00ED1A42 /* LLLockConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLockConfig.h; sourceTree = "<group>"; };
+		0477E3AB1A2C18CF00ED1A42 /* LLLockIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLockIndicator.h; sourceTree = "<group>"; };
+		0477E3AC1A2C18CF00ED1A42 /* LLLockIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLockIndicator.m; sourceTree = "<group>"; };
+		0477E3AD1A2C18CF00ED1A42 /* LLLockPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLockPassword.h; sourceTree = "<group>"; };
+		0477E3AE1A2C18CF00ED1A42 /* LLLockPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLockPassword.m; sourceTree = "<group>"; };
+		0477E3AF1A2C18CF00ED1A42 /* LLLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLockView.h; sourceTree = "<group>"; };
+		0477E3B01A2C18CF00ED1A42 /* LLLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLockView.m; sourceTree = "<group>"; };
+		0477E3B11A2C18CF00ED1A42 /* LLLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLockViewController.h; sourceTree = "<group>"; };
+		0477E3B21A2C18CF00ED1A42 /* LLLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLockViewController.m; sourceTree = "<group>"; };
+		0477E3B31A2C18CF00ED1A42 /* LLLockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLLockViewController.xib; sourceTree = "<group>"; };
+		0477E3B41A2C18CF00ED1A42 /* LockSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockSecondViewController.h; sourceTree = "<group>"; };
+		0477E3B51A2C18CF00ED1A42 /* LockSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockSecondViewController.m; sourceTree = "<group>"; };
+		0477E3BF1A2C21D300ED1A42 /* DKTagCloudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKTagCloudView.h; sourceTree = "<group>"; };
+		0477E3C01A2C21D300ED1A42 /* DKTagCloudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKTagCloudView.m; sourceTree = "<group>"; };
+		0477E3C11A2C21D300ED1A42 /* TagCloudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagCloudViewController.h; sourceTree = "<group>"; };
+		0477E3C21A2C21D300ED1A42 /* TagCloudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagCloudViewController.m; sourceTree = "<group>"; };
+		0477E3C81A2C305B00ED1A42 /* HTKDynamicResizingCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKDynamicResizingCollectionViewCell.h; sourceTree = "<group>"; };
+		0477E3C91A2C305B00ED1A42 /* HTKDynamicResizingCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKDynamicResizingCollectionViewCell.m; sourceTree = "<group>"; };
+		0477E3CB1A2C305B00ED1A42 /* HTKDynamicResizingCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKDynamicResizingCellProtocol.h; sourceTree = "<group>"; };
+		0477E3CD1A2C305B00ED1A42 /* HTKDynamicResizingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKDynamicResizingTableViewCell.h; sourceTree = "<group>"; };
+		0477E3CE1A2C305B00ED1A42 /* HTKDynamicResizingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKDynamicResizingTableViewCell.m; sourceTree = "<group>"; };
+		0477E3D11A2C305B00ED1A42 /* HTKSampleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKSampleCollectionViewCell.h; sourceTree = "<group>"; };
+		0477E3D21A2C305B00ED1A42 /* HTKSampleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKSampleCollectionViewCell.m; sourceTree = "<group>"; };
+		0477E3D31A2C305B00ED1A42 /* HTKSampleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKSampleTableViewCell.h; sourceTree = "<group>"; };
+		0477E3D41A2C305B00ED1A42 /* HTKSampleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKSampleTableViewCell.m; sourceTree = "<group>"; };
+		0477E3D61A2C305B00ED1A42 /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		0477E3D71A2C305B00ED1A42 /* HTKSampleCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKSampleCollectionViewController.h; sourceTree = "<group>"; };
+		0477E3D81A2C305B00ED1A42 /* HTKSampleCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKSampleCollectionViewController.m; sourceTree = "<group>"; };
+		0477E3D91A2C305B00ED1A42 /* HTKSampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKSampleTableViewController.h; sourceTree = "<group>"; };
+		0477E3DA1A2C305B00ED1A42 /* HTKSampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKSampleTableViewController.m; sourceTree = "<group>"; };
+		0477E3E21A2C308F00ED1A42 /* AutoResingCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoResingCellViewController.h; sourceTree = "<group>"; };
+		0477E3E31A2C308F00ED1A42 /* AutoResingCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoResingCellViewController.m; sourceTree = "<group>"; };
+		0477E3E71A2C39B800ED1A42 /* GGTabBar-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GGTabBar-Private.h"; sourceTree = "<group>"; };
+		0477E3E81A2C39B800ED1A42 /* GGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTabBar.h; sourceTree = "<group>"; };
+		0477E3E91A2C39B800ED1A42 /* GGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTabBar.m; sourceTree = "<group>"; };
+		0477E3EA1A2C39B800ED1A42 /* GGTabBarAppearanceKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTabBarAppearanceKeys.h; sourceTree = "<group>"; };
+		0477E3EB1A2C39B800ED1A42 /* GGTabBarAppearanceKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTabBarAppearanceKeys.m; sourceTree = "<group>"; };
+		0477E3EC1A2C39B800ED1A42 /* GGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTabBarController.h; sourceTree = "<group>"; };
+		0477E3ED1A2C39B800ED1A42 /* GGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTabBarController.m; sourceTree = "<group>"; };
+		0477E3EF1A2C39B800ED1A42 /* TestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController1.h; sourceTree = "<group>"; };
+		0477E3F01A2C39B800ED1A42 /* TestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController1.m; sourceTree = "<group>"; };
+		0477E3F11A2C39B800ED1A42 /* TestViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController1.xib; sourceTree = "<group>"; };
+		0477E3F21A2C39B800ED1A42 /* TestViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController2.h; sourceTree = "<group>"; };
+		0477E3F31A2C39B800ED1A42 /* TestViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController2.m; sourceTree = "<group>"; };
+		0477E3F41A2C39B800ED1A42 /* TestViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController2.xib; sourceTree = "<group>"; };
+		0477E3F51A2C39B800ED1A42 /* TestViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController3.h; sourceTree = "<group>"; };
+		0477E3F61A2C39B800ED1A42 /* TestViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController3.m; sourceTree = "<group>"; };
+		0477E3F71A2C39B800ED1A42 /* TestViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController3.xib; sourceTree = "<group>"; };
+		0477E3F81A2C39B800ED1A42 /* TestViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController4.h; sourceTree = "<group>"; };
+		0477E3F91A2C39B800ED1A42 /* TestViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController4.m; sourceTree = "<group>"; };
+		0477E3FA1A2C39B800ED1A42 /* TestViewController4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController4.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -578,11 +685,18 @@
 		046DDBC21A29D4FE00D2046D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				046DDDB81A29DA4E00D2046D /* 左侧菜单 */,
 				046DDBC31A29D4FE00D2046D /* BaseViewController.h */,
 				046DDBC41A29D4FE00D2046D /* BaseViewController.m */,
+				0477E3E51A2C39B800ED1A42 /* 自定义tabbar */,
+				0477E3C51A2C305B00ED1A42 /* cell自动布局 */,
+				0477E3BD1A2C21D300ED1A42 /* 标签云 */,
+				0477E3A61A2C18CF00ED1A42 /* 手势解锁 */,
+				0477E3871A2C0C9800ED1A42 /* Input输入收回键盘 */,
+				046DDF051A29F84100D2046D /* 单选弹出视图 */,
+				046DDEE21A29F55A00D2046D /* 3D旋转标签云 */,
 				046DDED21A29F04600D2046D /* 表格中下列时放大背景 */,
 				046DDEC01A29EE8300D2046D /* 通过裁剪图片作为头像 */,
-				046DDDB81A29DA4E00D2046D /* 左侧菜单 */,
 				046DDDB71A29DA0200D2046D /* Web静态页面 */,
 				046DDBC51A29D4FE00D2046D /* ScrollView自动无限循环 */,
 				046DDDBC1A29DC0F00D2046D /* 类似FB和TW资料页 */,
@@ -1199,6 +1313,238 @@
 			path = CExpandHeader;
 			sourceTree = "<group>";
 		};
+		046DDEE21A29F55A00D2046D /* 3D旋转标签云 */ = {
+			isa = PBXGroup;
+			children = (
+				046DDEE31A29F55A00D2046D /* DBSphereTagCloud */,
+				046DDEE81A29F55A00D2046D /* SphereTagCloudViewController.h */,
+				046DDEE91A29F55A00D2046D /* SphereTagCloudViewController.m */,
+			);
+			path = "3D旋转标签云";
+			sourceTree = "<group>";
+		};
+		046DDEE31A29F55A00D2046D /* DBSphereTagCloud */ = {
+			isa = PBXGroup;
+			children = (
+				046DDEE41A29F55A00D2046D /* DBMatrix.h */,
+				046DDEE51A29F55A00D2046D /* DBPoint.h */,
+				046DDEE61A29F55A00D2046D /* DBSphereView.h */,
+				046DDEE71A29F55A00D2046D /* DBSphereView.m */,
+			);
+			path = DBSphereTagCloud;
+			sourceTree = "<group>";
+		};
+		046DDF051A29F84100D2046D /* 单选弹出视图 */ = {
+			isa = PBXGroup;
+			children = (
+				046DDF061A29F84100D2046D /* classes */,
+				046DDF121A29F89000D2046D /* PopSelectViewController.h */,
+				046DDF131A29F89000D2046D /* PopSelectViewController.m */,
+				046DDF141A29F89000D2046D /* PopSelectViewController.xib */,
+			);
+			path = "单选弹出视图";
+			sourceTree = "<group>";
+		};
+		046DDF061A29F84100D2046D /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				046DDF071A29F84100D2046D /* SGPopSelectView.h */,
+				046DDF081A29F84100D2046D /* SGPopSelectView.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		0477E3871A2C0C9800ED1A42 /* Input输入收回键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3881A2C0C9800ED1A42 /* InputHelper */,
+				0477E3A11A2C0D2D00ED1A42 /* TextFieldResignFirstResponderViewController.h */,
+				0477E3A21A2C0D2D00ED1A42 /* TextFieldResignFirstResponderViewController.m */,
+				0477E3A31A2C0D2D00ED1A42 /* TextFieldResignFirstResponderViewController.xib */,
+			);
+			name = "Input输入收回键盘";
+			path = "TextField输入收回键盘";
+			sourceTree = "<group>";
+		};
+		0477E3881A2C0C9800ED1A42 /* InputHelper */ = {
+			isa = PBXGroup;
+			children = (
+				0477E38D1A2C0C9800ED1A42 /* Main.storyboard */,
+				0477E3911A2C0C9800ED1A42 /* InputHelper.h */,
+				0477E3921A2C0C9800ED1A42 /* InputHelper.m */,
+			);
+			path = InputHelper;
+			sourceTree = "<group>";
+		};
+		0477E3A61A2C18CF00ED1A42 /* 手势解锁 */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3A71A2C18CF00ED1A42 /* LockFirstViewController.h */,
+				0477E3A81A2C18CF00ED1A42 /* LockFirstViewController.m */,
+				0477E3B41A2C18CF00ED1A42 /* LockSecondViewController.h */,
+				0477E3B51A2C18CF00ED1A42 /* LockSecondViewController.m */,
+				0477E3A91A2C18CF00ED1A42 /* LLLockView */,
+			);
+			path = "手势解锁";
+			sourceTree = "<group>";
+		};
+		0477E3A91A2C18CF00ED1A42 /* LLLockView */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3AA1A2C18CF00ED1A42 /* LLLockConfig.h */,
+				0477E3AB1A2C18CF00ED1A42 /* LLLockIndicator.h */,
+				0477E3AC1A2C18CF00ED1A42 /* LLLockIndicator.m */,
+				0477E3AD1A2C18CF00ED1A42 /* LLLockPassword.h */,
+				0477E3AE1A2C18CF00ED1A42 /* LLLockPassword.m */,
+				0477E3AF1A2C18CF00ED1A42 /* LLLockView.h */,
+				0477E3B01A2C18CF00ED1A42 /* LLLockView.m */,
+				0477E3B11A2C18CF00ED1A42 /* LLLockViewController.h */,
+				0477E3B21A2C18CF00ED1A42 /* LLLockViewController.m */,
+				0477E3B31A2C18CF00ED1A42 /* LLLockViewController.xib */,
+			);
+			path = LLLockView;
+			sourceTree = "<group>";
+		};
+		0477E3BD1A2C21D300ED1A42 /* 标签云 */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3BE1A2C21D300ED1A42 /* DKTagCloudView */,
+				0477E3C11A2C21D300ED1A42 /* TagCloudViewController.h */,
+				0477E3C21A2C21D300ED1A42 /* TagCloudViewController.m */,
+			);
+			path = "标签云";
+			sourceTree = "<group>";
+		};
+		0477E3BE1A2C21D300ED1A42 /* DKTagCloudView */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3BF1A2C21D300ED1A42 /* DKTagCloudView.h */,
+				0477E3C01A2C21D300ED1A42 /* DKTagCloudView.m */,
+			);
+			path = DKTagCloudView;
+			sourceTree = "<group>";
+		};
+		0477E3C51A2C305B00ED1A42 /* cell自动布局 */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3E21A2C308F00ED1A42 /* AutoResingCellViewController.h */,
+				0477E3E31A2C308F00ED1A42 /* AutoResingCellViewController.m */,
+				0477E3C61A2C305B00ED1A42 /* HTKDynamicResizingCell */,
+				0477E3CF1A2C305B00ED1A42 /* Sample */,
+			);
+			path = "cell自动布局";
+			sourceTree = "<group>";
+		};
+		0477E3C61A2C305B00ED1A42 /* HTKDynamicResizingCell */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3C71A2C305B00ED1A42 /* CollectionView */,
+				0477E3CA1A2C305B00ED1A42 /* Protocol */,
+				0477E3CC1A2C305B00ED1A42 /* TableView */,
+			);
+			path = HTKDynamicResizingCell;
+			sourceTree = "<group>";
+		};
+		0477E3C71A2C305B00ED1A42 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3C81A2C305B00ED1A42 /* HTKDynamicResizingCollectionViewCell.h */,
+				0477E3C91A2C305B00ED1A42 /* HTKDynamicResizingCollectionViewCell.m */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		0477E3CA1A2C305B00ED1A42 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3CB1A2C305B00ED1A42 /* HTKDynamicResizingCellProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0477E3CC1A2C305B00ED1A42 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3CD1A2C305B00ED1A42 /* HTKDynamicResizingTableViewCell.h */,
+				0477E3CE1A2C305B00ED1A42 /* HTKDynamicResizingTableViewCell.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		0477E3CF1A2C305B00ED1A42 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3D01A2C305B00ED1A42 /* Cell */,
+				0477E3D51A2C305B00ED1A42 /* Data */,
+				0477E3D71A2C305B00ED1A42 /* HTKSampleCollectionViewController.h */,
+				0477E3D81A2C305B00ED1A42 /* HTKSampleCollectionViewController.m */,
+				0477E3D91A2C305B00ED1A42 /* HTKSampleTableViewController.h */,
+				0477E3DA1A2C305B00ED1A42 /* HTKSampleTableViewController.m */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		0477E3D01A2C305B00ED1A42 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3D11A2C305B00ED1A42 /* HTKSampleCollectionViewCell.h */,
+				0477E3D21A2C305B00ED1A42 /* HTKSampleCollectionViewCell.m */,
+				0477E3D31A2C305B00ED1A42 /* HTKSampleTableViewCell.h */,
+				0477E3D41A2C305B00ED1A42 /* HTKSampleTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0477E3D51A2C305B00ED1A42 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3D61A2C305B00ED1A42 /* SampleData.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0477E3E51A2C39B800ED1A42 /* 自定义tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3E61A2C39B800ED1A42 /* GGTabBar */,
+				0477E3EE1A2C39B800ED1A42 /* ViewControllers */,
+			);
+			path = "自定义tabbar";
+			sourceTree = "<group>";
+		};
+		0477E3E61A2C39B800ED1A42 /* GGTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3E71A2C39B800ED1A42 /* GGTabBar-Private.h */,
+				0477E3E81A2C39B800ED1A42 /* GGTabBar.h */,
+				0477E3E91A2C39B800ED1A42 /* GGTabBar.m */,
+				0477E3EA1A2C39B800ED1A42 /* GGTabBarAppearanceKeys.h */,
+				0477E3EB1A2C39B800ED1A42 /* GGTabBarAppearanceKeys.m */,
+				0477E3EC1A2C39B800ED1A42 /* GGTabBarController.h */,
+				0477E3ED1A2C39B800ED1A42 /* GGTabBarController.m */,
+			);
+			path = GGTabBar;
+			sourceTree = "<group>";
+		};
+		0477E3EE1A2C39B800ED1A42 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0477E3EF1A2C39B800ED1A42 /* TestViewController1.h */,
+				0477E3F01A2C39B800ED1A42 /* TestViewController1.m */,
+				0477E3F11A2C39B800ED1A42 /* TestViewController1.xib */,
+				0477E3F21A2C39B800ED1A42 /* TestViewController2.h */,
+				0477E3F31A2C39B800ED1A42 /* TestViewController2.m */,
+				0477E3F41A2C39B800ED1A42 /* TestViewController2.xib */,
+				0477E3F51A2C39B800ED1A42 /* TestViewController3.h */,
+				0477E3F61A2C39B800ED1A42 /* TestViewController3.m */,
+				0477E3F71A2C39B800ED1A42 /* TestViewController3.xib */,
+				0477E3F81A2C39B800ED1A42 /* TestViewController4.h */,
+				0477E3F91A2C39B800ED1A42 /* TestViewController4.m */,
+				0477E3FA1A2C39B800ED1A42 /* TestViewController4.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1283,6 +1629,7 @@
 				046DDEB61A29EBE900D2046D /* dialog_clear.png in Resources */,
 				046DDE321A29E31900D2046D /* Level0_Cell.xib in Resources */,
 				046DDBA81A29D33D00D2046D /* LaunchScreen.xib in Resources */,
+				0477E4011A2C39B800ED1A42 /* TestViewController2.xib in Resources */,
 				046DDE331A29E31900D2046D /* Level1_Cell.xib in Resources */,
 				046DDEB91A29EBE900D2046D /* dialog_ok-disabled@2x.png in Resources */,
 				046DDDD61A29DEE000D2046D /* yidong2@2x.png in Resources */,
@@ -1295,6 +1642,7 @@
 				046DDDAD1A29D55200D2046D /* zbar-helpicons.png in Resources */,
 				046DDE651A29E76000D2046D /* Alixpay.bundle in Resources */,
 				046DDE2C1A29E31900D2046D /* head4.jpg in Resources */,
+				0477E3FF1A2C39B800ED1A42 /* TestViewController1.xib in Resources */,
 				046DDE2F1A29E31900D2046D /* head7.jpg in Resources */,
 				046DDC071A29D50F00D2046D /* qrcode_share_sucess@2x.png in Resources */,
 				046DDBF41A29D50F00D2046D /* arrow@2x.png in Resources */,
@@ -1311,11 +1659,14 @@
 				046DDEB41A29EBE900D2046D /* dialog_clear-disabled.png in Resources */,
 				046DDDAC1A29D55200D2046D /* zbar-help.html in Resources */,
 				046DDC011A29D50F00D2046D /* placeholder@2x.png in Resources */,
+				0477E4051A2C39B800ED1A42 /* TestViewController4.xib in Resources */,
 				046DDDAE1A29D55200D2046D /* zbar-samples.png in Resources */,
+				0477E3BB1A2C18CF00ED1A42 /* LLLockViewController.xib in Resources */,
 				046DDBF71A29D50F00D2046D /* erweimaBg.png in Resources */,
 				046DDEBA1A29EBE900D2046D /* dialog_ok.png in Resources */,
 				046DDBF21A29D50F00D2046D /* 72@2x.png in Resources */,
 				046DDEAD1A29EBE900D2046D /* calendar_littledot-disabled@2x.png in Resources */,
+				0477E3A51A2C0D2D00ED1A42 /* TextFieldResignFirstResponderViewController.xib in Resources */,
 				046DDBFB1A29D50F00D2046D /* ListTop@2x.png in Resources */,
 				046DDBF51A29D50F00D2046D /* BackTop.png in Resources */,
 				046DDE721A29E76000D2046D /* 褰掓。.zip in Resources */,
@@ -1346,14 +1697,18 @@
 				046DDBF31A29D50F00D2046D /* arrow.png in Resources */,
 				046DDE2A1A29E31900D2046D /* head2.jpg in Resources */,
 				046DDEBF1A29EBE900D2046D /* THDatePickerViewController.xib in Resources */,
+				0477E3DF1A2C305B00ED1A42 /* SampleData.plist in Resources */,
 				046DDEAE1A29EBE900D2046D /* calendar_littledot.png in Resources */,
+				0477E39A1A2C0C9800ED1A42 /* Main.storyboard in Resources */,
 				046DDC041A29D50F00D2046D /* qrcode_share_fail.png in Resources */,
 				046DDBF61A29D50F00D2046D /* BackTop@2x.png in Resources */,
 				046DDDD21A29DEE000D2046D /* 2@2x.png in Resources */,
 				046DDDF31A29E02F00D2046D /* pull_refresh@2x.png in Resources */,
 				046DDEB01A29EBE900D2046D /* calendar_ok-disabled.png in Resources */,
+				046DDF161A29F89000D2046D /* PopSelectViewController.xib in Resources */,
 				046DDDD01A29DEE000D2046D /* 1@2x.png in Resources */,
 				046DDEB11A29EBE900D2046D /* calendar_ok-disabled@2x.png in Resources */,
+				0477E4031A2C39B800ED1A42 /* TestViewController3.xib in Resources */,
 				046DDE271A29E31900D2046D /* contacts_collect@2x.png in Resources */,
 				046DDEA61A29EBE900D2046D /* arrow_left.png in Resources */,
 				046DDC021A29D50F00D2046D /* QR NG.png in Resources */,
@@ -1381,18 +1736,25 @@
 				046DDD201A29D55100D2046D /* AFURLSessionManager.m in Sources */,
 				046DDE231A29E31900D2046D /* CLTreeView_LEVEL2_Cell.m in Sources */,
 				046DDDD31A29DEE000D2046D /* PathAddView.m in Sources */,
+				0477E3DB1A2C305B00ED1A42 /* HTKDynamicResizingCollectionViewCell.m in Sources */,
 				046DDEE11A29F04600D2046D /* TableViewTestViewController.m in Sources */,
 				046DDD9F1A29D55200D2046D /* SDWebImageDecoder.m in Sources */,
+				0477E39D1A2C0C9800ED1A42 /* InputHelper.m in Sources */,
+				0477E3C31A2C21D300ED1A42 /* DKTagCloudView.m in Sources */,
 				046DDEA51A29EBE900D2046D /* CalendarDatePickerViewController.m in Sources */,
 				046DDE6E1A29E76000D2046D /* SBJsonParser.m in Sources */,
+				0477E3E41A2C308F00ED1A42 /* AutoResingCellViewController.m in Sources */,
 				046DDE201A29E31900D2046D /* CLTreeView_LEVEL0_Model.m in Sources */,
 				046DDECE1A29EE8300D2046D /* RSKImageCropViewController.m in Sources */,
 				046DDE241A29E31900D2046D /* CLTreeView_LEVEL2_Model.m in Sources */,
 				046DDDA11A29D55200D2046D /* SDWebImageManager.m in Sources */,
 				046DDDD41A29DEE000D2046D /* PathAddView1.m in Sources */,
+				0477E3BC1A2C18CF00ED1A42 /* LockSecondViewController.m in Sources */,
 				046DDD1D1A29D55100D2046D /* AFURLConnectionOperation.m in Sources */,
+				0477E3E11A2C305B00ED1A42 /* HTKSampleTableViewController.m in Sources */,
 				046DDE6A1A29E76000D2046D /* NSObject+SBJSON.m in Sources */,
 				046DDECF1A29EE8300D2046D /* RSKImageScrollView.m in Sources */,
+				0477E3FC1A2C39B800ED1A42 /* GGTabBarAppearanceKeys.m in Sources */,
 				046DDE251A29E31900D2046D /* CLTreeViewController.m in Sources */,
 				046DDD211A29D55100D2046D /* EScrollerView.m in Sources */,
 				046DDDEE1A29E02F00D2046D /* CollectionViewController.m in Sources */,
@@ -1400,8 +1762,10 @@
 				046DDBEE1A29D50F00D2046D /* NSString+Helper.m in Sources */,
 				046DDEDF1A29F04600D2046D /* CustomHeadViewController.m in Sources */,
 				046DDDA61A29D55200D2046D /* UIImage+WebP.m in Sources */,
+				0477E3DD1A2C305B00ED1A42 /* HTKSampleCollectionViewCell.m in Sources */,
 				046DDDA71A29D55200D2046D /* UIImageView+WebCache.m in Sources */,
 				046DDDF61A29E02F00D2046D /* RefreshTopView.m in Sources */,
+				0477E3DC1A2C305B00ED1A42 /* HTKDynamicResizingTableViewCell.m in Sources */,
 				046DDDC11A29DC0F00D2046D /* RKCardView.m in Sources */,
 				046DDD191A29D55100D2046D /* AFHTTPRequestOperationManager.m in Sources */,
 				046DDE691A29E76000D2046D /* AlixPayResult.m in Sources */,
@@ -1410,21 +1774,33 @@
 				046DDBCA1A29D4FE00D2046D /* AutoScrollViewController.m in Sources */,
 				046DDDA21A29D55200D2046D /* SDWebImagePrefetcher.m in Sources */,
 				046DDE731A29E76000D2046D /* CommonUtil.m in Sources */,
+				046DDF0E1A29F84100D2046D /* SGPopSelectView.m in Sources */,
+				0477E3B71A2C18CF00ED1A42 /* LLLockIndicator.m in Sources */,
+				046DDEEB1A29F55A00D2046D /* SphereTagCloudViewController.m in Sources */,
+				0477E3B61A2C18CF00ED1A42 /* LockFirstViewController.m in Sources */,
 				046DDE211A29E31900D2046D /* CLTreeView_LEVEL1_Cell.m in Sources */,
 				046DDE1F1A29E31900D2046D /* CLTreeView_LEVEL0_Cell.m in Sources */,
 				046DDDF11A29E02F00D2046D /* RefreshView.m in Sources */,
 				046DDE681A29E76000D2046D /* AlixPayOrder.m in Sources */,
+				0477E4001A2C39B800ED1A42 /* TestViewController2.m in Sources */,
 				046DDDF21A29E02F00D2046D /* RefreshControl.m in Sources */,
 				046DDE751A29E76000D2046D /* WxAliPayViewController.m in Sources */,
 				046DDEDD1A29F04600D2046D /* CExpandHeader.m in Sources */,
 				046DDE351A29E31900D2046D /* DoubleViewController.m in Sources */,
 				046DDBF01A29D50F00D2046D /* UIImage+Helper.m in Sources */,
+				0477E3C41A2C21D300ED1A42 /* TagCloudViewController.m in Sources */,
 				046DDDA91A29D55200D2046D /* SWRevealViewController.m in Sources */,
 				046DDED11A29EE8300D2046D /* UIImage+FixOrientation.m in Sources */,
+				046DDEEA1A29F55A00D2046D /* DBSphereView.m in Sources */,
+				0477E3B81A2C18CF00ED1A42 /* LLLockPassword.m in Sources */,
 				046DDEA31A29EBE900D2046D /* NSObject+YMOptionsAndDefaults.m in Sources */,
 				046DDDF71A29E02F00D2046D /* TableViewController.m in Sources */,
 				046DDD1A1A29D55100D2046D /* AFHTTPSessionManager.m in Sources */,
 				046DDE6C1A29E76000D2046D /* SBJSON.m in Sources */,
+				046DDF151A29F89000D2046D /* PopSelectViewController.m in Sources */,
+				0477E4041A2C39B800ED1A42 /* TestViewController4.m in Sources */,
+				0477E3BA1A2C18CF00ED1A42 /* LLLockViewController.m in Sources */,
+				0477E3A41A2C0D2D00ED1A42 /* TextFieldResignFirstResponderViewController.m in Sources */,
 				046DDE6B1A29E76000D2046D /* NSString+SBJSON.m in Sources */,
 				046DDEBE1A29EBE900D2046D /* THDatePickerViewController.m in Sources */,
 				046DDE221A29E31900D2046D /* CLTreeView_LEVEL1_Model.m in Sources */,
@@ -1433,13 +1809,18 @@
 				046DDDBB1A29DA4E00D2046D /* LeftMenuViewController.m in Sources */,
 				046DDD231A29D55100D2046D /* MLNavigationController.m in Sources */,
 				046DDDA81A29D55200D2046D /* SVProgressHUD.m in Sources */,
+				0477E3FE1A2C39B800ED1A42 /* TestViewController1.m in Sources */,
 				046DDB9D1A29D33D00D2046D /* AppDelegate.m in Sources */,
 				046DDDF51A29E02F00D2046D /* RefreshBottomView.m in Sources */,
 				046DDDA31A29D55200D2046D /* UIButton+WebCache.m in Sources */,
+				0477E3E01A2C305B00ED1A42 /* HTKSampleCollectionViewController.m in Sources */,
+				0477E3FD1A2C39B800ED1A42 /* GGTabBarController.m in Sources */,
 				046DDBEF1A29D50F00D2046D /* Tools.m in Sources */,
 				046DDED01A29EE8300D2046D /* RSKTouchView.m in Sources */,
 				046DDE261A29E31900D2046D /* CLTreeViewNode.m in Sources */,
 				046DDD9D1A29D55200D2046D /* NSData+ImageContentType.m in Sources */,
+				0477E3FB1A2C39B800ED1A42 /* GGTabBar.m in Sources */,
+				0477E4021A2C39B800ED1A42 /* TestViewController3.m in Sources */,
 				046DDEA21A29EBE900D2046D /* README.md in Sources */,
 				046DDDF81A29E02F00D2046D /* RefreshViewController.m in Sources */,
 				046DDBC91A29D4FE00D2046D /* BaseViewController.m in Sources */,
@@ -1448,6 +1829,7 @@
 				046DDBF11A29D50F00D2046D /* UIView+Helper.m in Sources */,
 				046DDDA41A29D55200D2046D /* UIImage+GIF.m in Sources */,
 				046DDD1E1A29D55100D2046D /* AFURLRequestSerialization.m in Sources */,
+				0477E3B91A2C18CF00ED1A42 /* LLLockView.m in Sources */,
 				046DDDD51A29DEE000D2046D /* CoreAnimationViewController.m in Sources */,
 				046DDD9B1A29D55200D2046D /* MKAnnotationView+WebCache.m in Sources */,
 				046DDEE01A29F04600D2046D /* ScrollTestViewController.m in Sources */,
@@ -1456,6 +1838,7 @@
 				046DDE741A29E76000D2046D /* JSenPayEngine.m in Sources */,
 				046DDD1F1A29D55100D2046D /* AFURLResponseSerialization.m in Sources */,
 				046DDDA01A29D55200D2046D /* SDWebImageDownloader.m in Sources */,
+				0477E3DE1A2C305B00ED1A42 /* HTKSampleTableViewCell.m in Sources */,
 				046DDECD1A29EE8300D2046D /* ImageCropperViewController.m in Sources */,
 				046DDEBC1A29EBE900D2046D /* THDateDay.m in Sources */,
 				046DDB9A1A29D33D00D2046D /* main.m in Sources */,
@@ -1487,6 +1870,14 @@
 				046DDBA71A29D33D00D2046D /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0477E38D1A2C0C9800ED1A42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0477E38E1A2C0C9800ED1A42 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1671,6 +2062,7 @@
 				046DDBB91A29D33E00D2046D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046DDBBA1A29D33E00D2046D /* Build configuration list for PBXNativeTarget "conclusionTests" */ = {
 			isa = XCConfigurationList;
@@ -1679,6 +2071,7 @@
 				046DDBBC1A29D33E00D2046D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

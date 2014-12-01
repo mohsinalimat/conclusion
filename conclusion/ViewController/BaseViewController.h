@@ -18,6 +18,8 @@
 
 -(void)loadBackButton;
 
+-(void)loadRightButton;
+
 -(void)setNavigationTitle:(NSString *)title;
 @end
 

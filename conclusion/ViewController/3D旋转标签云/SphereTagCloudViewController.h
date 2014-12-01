@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 Xinbao Dong. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController
+@interface SphereTagCloudViewController : BaseViewController
 
 
 @end

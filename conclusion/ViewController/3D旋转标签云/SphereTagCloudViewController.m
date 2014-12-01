@@ -6,22 +6,26 @@
 //  Copyright (c) 2014年 Xinbao Dong. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SphereTagCloudViewController.h"
 #import "DBSphereView.h"
 
-@interface ViewController ()
+@interface SphereTagCloudViewController ()
 
 @property (nonatomic, retain) DBSphereView *sphereView;
 
 @end
 
-@implementation ViewController
+@implementation SphereTagCloudViewController
 
 @synthesize sphereView;
             
 - (void)viewDidLoad {
     [super viewDidLoad];
-    sphereView = [[DBSphereView alloc] initWithFrame:CGRectMake(0, 100, 320, 320)];
+    
+    [self loadNavigationView];
+    [self loadRevealController];
+    
+    sphereView = [[DBSphereView alloc] initWithFrame:CGRectMake(0, 120, DeviceWidth, DeviceWidth)];
     NSMutableArray *array = [[NSMutableArray alloc] initWithCapacity:0];
     for (NSInteger i = 0; i < 50; i ++) {
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
