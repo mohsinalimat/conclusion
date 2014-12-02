@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Goles. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface TestViewController3 : UIViewController
+@interface TestViewController3 : BaseViewController
 
 @end
 

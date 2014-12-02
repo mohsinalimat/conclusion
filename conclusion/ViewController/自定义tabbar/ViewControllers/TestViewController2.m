@@ -29,6 +29,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self loadNavigationView];
+    [self loadRevealController];
+    [self setNavigationTitle:@"Test View Controller 2"];
 }
 
 - (void)didReceiveMemoryWarning

@@ -37,12 +37,24 @@
     
     [self customizeAppearance];
     
+    
+    // Register for push notifications
+    if ([application respondsToSelector:@selector(registerUserNotificationSettings:)]) {//ios8
+        [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge) categories:nil]];
+        [application registerForRemoteNotifications];
+    } else {
+        [application registerForRemoteNotificationTypes: UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert];
+    }
+    
     AutoScrollViewController *_homeViewController = [[AutoScrollViewController alloc]init];
     MLNavigationController *_homeNavigationController=[[MLNavigationController alloc] initWithRootViewController:_homeViewController];
     LeftMenuViewController *mainMenu=[[LeftMenuViewController alloc]init];
     _revealController = [[SWRevealViewController alloc] initWithRearViewController:mainMenu frontViewController:_homeNavigationController];
     self.window.rootViewController=_revealController;
 
+    
+    
+    
     return YES;
 }
 
@@ -72,6 +84,32 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+
+#pragma mark 推送
+//1.注册设备需要在app delegate的[application:didFinishLaunchingWithOptions:]方法中调用[application registerForRemoteNotificationTypes:]方法，代码如下：
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)pToken {
+    
+    NSLog(@"regisger success:%@", pToken);
+    
+    //注册成功，将deviceToken保存到应用服务器数据库中，因为在写向ios推送信息的服务器端程序时要用到这个
+    
+}
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo{
+    
+    // 处理推送消息
+    NSLog(@"userInfo == %@",userInfo);
+    
+    NSString *message = [[userInfo objectForKey:@"aps"]objectForKey:@"alert"];
+    
+    UIAlertView *createUserResponseAlert = [[UIAlertView alloc] initWithTitle:@"提示" message: message delegate:self cancelButtonTitle:@"取消" otherButtonTitles: @"确认",nil];
+    [createUserResponseAlert show];
+    
+}
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
+    
+    NSLog(@"Regist fail%@",error); 
+    
+}
 
 
 #pragma mark - 弹出手势解锁密码输入框

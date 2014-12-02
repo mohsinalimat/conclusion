@@ -209,13 +209,9 @@
 		0477E3FC1A2C39B800ED1A42 /* GGTabBarAppearanceKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3EB1A2C39B800ED1A42 /* GGTabBarAppearanceKeys.m */; };
 		0477E3FD1A2C39B800ED1A42 /* GGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3ED1A2C39B800ED1A42 /* GGTabBarController.m */; };
 		0477E3FE1A2C39B800ED1A42 /* TestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3F01A2C39B800ED1A42 /* TestViewController1.m */; };
-		0477E3FF1A2C39B800ED1A42 /* TestViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E3F11A2C39B800ED1A42 /* TestViewController1.xib */; };
 		0477E4001A2C39B800ED1A42 /* TestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3F31A2C39B800ED1A42 /* TestViewController2.m */; };
-		0477E4011A2C39B800ED1A42 /* TestViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E3F41A2C39B800ED1A42 /* TestViewController2.xib */; };
 		0477E4021A2C39B800ED1A42 /* TestViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3F61A2C39B800ED1A42 /* TestViewController3.m */; };
-		0477E4031A2C39B800ED1A42 /* TestViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E3F71A2C39B800ED1A42 /* TestViewController3.xib */; };
 		0477E4041A2C39B800ED1A42 /* TestViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E3F91A2C39B800ED1A42 /* TestViewController4.m */; };
-		0477E4051A2C39B800ED1A42 /* TestViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E3FA1A2C39B800ED1A42 /* TestViewController4.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -583,16 +579,12 @@
 		0477E3ED1A2C39B800ED1A42 /* GGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTabBarController.m; sourceTree = "<group>"; };
 		0477E3EF1A2C39B800ED1A42 /* TestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController1.h; sourceTree = "<group>"; };
 		0477E3F01A2C39B800ED1A42 /* TestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController1.m; sourceTree = "<group>"; };
-		0477E3F11A2C39B800ED1A42 /* TestViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController1.xib; sourceTree = "<group>"; };
 		0477E3F21A2C39B800ED1A42 /* TestViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController2.h; sourceTree = "<group>"; };
 		0477E3F31A2C39B800ED1A42 /* TestViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController2.m; sourceTree = "<group>"; };
-		0477E3F41A2C39B800ED1A42 /* TestViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController2.xib; sourceTree = "<group>"; };
 		0477E3F51A2C39B800ED1A42 /* TestViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController3.h; sourceTree = "<group>"; };
 		0477E3F61A2C39B800ED1A42 /* TestViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController3.m; sourceTree = "<group>"; };
-		0477E3F71A2C39B800ED1A42 /* TestViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController3.xib; sourceTree = "<group>"; };
 		0477E3F81A2C39B800ED1A42 /* TestViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController4.h; sourceTree = "<group>"; };
 		0477E3F91A2C39B800ED1A42 /* TestViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController4.m; sourceTree = "<group>"; };
-		0477E3FA1A2C39B800ED1A42 /* TestViewController4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController4.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1531,16 +1523,12 @@
 			children = (
 				0477E3EF1A2C39B800ED1A42 /* TestViewController1.h */,
 				0477E3F01A2C39B800ED1A42 /* TestViewController1.m */,
-				0477E3F11A2C39B800ED1A42 /* TestViewController1.xib */,
 				0477E3F21A2C39B800ED1A42 /* TestViewController2.h */,
 				0477E3F31A2C39B800ED1A42 /* TestViewController2.m */,
-				0477E3F41A2C39B800ED1A42 /* TestViewController2.xib */,
 				0477E3F51A2C39B800ED1A42 /* TestViewController3.h */,
 				0477E3F61A2C39B800ED1A42 /* TestViewController3.m */,
-				0477E3F71A2C39B800ED1A42 /* TestViewController3.xib */,
 				0477E3F81A2C39B800ED1A42 /* TestViewController4.h */,
 				0477E3F91A2C39B800ED1A42 /* TestViewController4.m */,
-				0477E3FA1A2C39B800ED1A42 /* TestViewController4.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -1629,7 +1617,6 @@
 				046DDEB61A29EBE900D2046D /* dialog_clear.png in Resources */,
 				046DDE321A29E31900D2046D /* Level0_Cell.xib in Resources */,
 				046DDBA81A29D33D00D2046D /* LaunchScreen.xib in Resources */,
-				0477E4011A2C39B800ED1A42 /* TestViewController2.xib in Resources */,
 				046DDE331A29E31900D2046D /* Level1_Cell.xib in Resources */,
 				046DDEB91A29EBE900D2046D /* dialog_ok-disabled@2x.png in Resources */,
 				046DDDD61A29DEE000D2046D /* yidong2@2x.png in Resources */,
@@ -1642,7 +1629,6 @@
 				046DDDAD1A29D55200D2046D /* zbar-helpicons.png in Resources */,
 				046DDE651A29E76000D2046D /* Alixpay.bundle in Resources */,
 				046DDE2C1A29E31900D2046D /* head4.jpg in Resources */,
-				0477E3FF1A2C39B800ED1A42 /* TestViewController1.xib in Resources */,
 				046DDE2F1A29E31900D2046D /* head7.jpg in Resources */,
 				046DDC071A29D50F00D2046D /* qrcode_share_sucess@2x.png in Resources */,
 				046DDBF41A29D50F00D2046D /* arrow@2x.png in Resources */,
@@ -1659,7 +1645,6 @@
 				046DDEB41A29EBE900D2046D /* dialog_clear-disabled.png in Resources */,
 				046DDDAC1A29D55200D2046D /* zbar-help.html in Resources */,
 				046DDC011A29D50F00D2046D /* placeholder@2x.png in Resources */,
-				0477E4051A2C39B800ED1A42 /* TestViewController4.xib in Resources */,
 				046DDDAE1A29D55200D2046D /* zbar-samples.png in Resources */,
 				0477E3BB1A2C18CF00ED1A42 /* LLLockViewController.xib in Resources */,
 				046DDBF71A29D50F00D2046D /* erweimaBg.png in Resources */,
@@ -1708,7 +1693,6 @@
 				046DDF161A29F89000D2046D /* PopSelectViewController.xib in Resources */,
 				046DDDD01A29DEE000D2046D /* 1@2x.png in Resources */,
 				046DDEB11A29EBE900D2046D /* calendar_ok-disabled@2x.png in Resources */,
-				0477E4031A2C39B800ED1A42 /* TestViewController3.xib in Resources */,
 				046DDE271A29E31900D2046D /* contacts_collect@2x.png in Resources */,
 				046DDEA61A29EBE900D2046D /* arrow_left.png in Resources */,
 				046DDC021A29D50F00D2046D /* QR NG.png in Resources */,
