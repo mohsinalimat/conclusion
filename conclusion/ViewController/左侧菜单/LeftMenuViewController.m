@@ -33,6 +33,11 @@
 #import "TestViewController3.h"
 #import "TestViewController4.h"
 #import "GGTabBarController.h"
+#import "HomeViewController.h"
+#import "NavigationViewController.h"
+#import "PassCodeViewController.h"
+#import "LongPressLockViewController.h"
+
 
 @interface LeftMenuViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
@@ -50,7 +55,7 @@
     // Do any additional setup after loading the view.
     [self loadNavigationView];
     [self setNavigationTitle:@"Imaginato"];
-    _dataArray = @[@"ScrollView自动无限循环",@"类似FB和TW资料页",@"CoreAnimation可做百分比进度条-波浪效果",@"RefreshControl下拉上拉",@"多级的联系人列表",@"支付宝、微信支付",@"Scan QR Code",@"日期选择器",@"通过剪切图片作为头像",@"表格中下列时放大背景",@"3D旋转标签云",@"单选弹出视图",@"Input输入收回键盘",@"手势解锁",@"标签云",@"cell自动布局",@"自定义tabbar"];
+    _dataArray = @[@"ScrollView自动无限循环",@"类似FB和TW资料页",@"CoreAnimation可做百分比进度条-波浪效果",@"RefreshControl下拉上拉",@"多级的联系人列表",@"支付宝、微信支付",@"Scan QR Code",@"日期选择器",@"通过剪切图片作为头像",@"表格中下列时放大背景",@"3D旋转标签云",@"单选弹出视图",@"Input输入收回键盘",@"手势解锁",@"标签云",@"cell自动布局",@"自定义tabbar",@"导航条菜单",@"密码解锁",@"长按解锁、上锁功能",@"",@""];
     _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, DeviceWidth, DeviceHeight-64) style:UITableViewStylePlain];
     [self.view addSubview:_tableView];
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
@@ -286,6 +291,29 @@
                 
                 tabBar.viewControllers = @[vc1, vc2, vc3, vc4];
                 newFrontController = tabBar;
+                break;
+            }
+            case 17:
+            {
+                newFrontController = [[NavigationViewController alloc] initWithRootViewController:[[HomeViewController alloc] init]];
+
+                break;
+            }
+            case 18:
+            {
+                
+                PassCodeViewController *passCodeViewController = [[PassCodeViewController alloc]init];
+                MLNavigationController *passCodeNavigationController=[[MLNavigationController alloc] initWithRootViewController:passCodeViewController];
+                
+                newFrontController = passCodeNavigationController;
+                break;
+            }
+            case 19:
+            {
+                LongPressLockViewController *longPressLockViewController = [[LongPressLockViewController alloc]init];
+                MLNavigationController *longPressLockNavigationController=[[MLNavigationController alloc] initWithRootViewController:longPressLockViewController];
+                
+                newFrontController = longPressLockNavigationController;
                 break;
             }
             default:
