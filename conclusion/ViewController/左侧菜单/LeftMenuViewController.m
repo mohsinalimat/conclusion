@@ -37,6 +37,8 @@
 #import "NavigationViewController.h"
 #import "PassCodeViewController.h"
 #import "LongPressLockViewController.h"
+#import "TOViewController.h"
+#import "HtmlParserViewController.h"
 
 
 @interface LeftMenuViewController ()<UITableViewDataSource,UITableViewDelegate>
@@ -55,7 +57,7 @@
     // Do any additional setup after loading the view.
     [self loadNavigationView];
     [self setNavigationTitle:@"Imaginato"];
-    _dataArray = @[@"ScrollView自动无限循环",@"类似FB和TW资料页",@"CoreAnimation可做百分比进度条-波浪效果",@"RefreshControl下拉上拉",@"多级的联系人列表",@"支付宝、微信支付",@"Scan QR Code",@"日期选择器",@"通过剪切图片作为头像",@"表格中下列时放大背景",@"3D旋转标签云",@"单选弹出视图",@"Input输入收回键盘",@"手势解锁",@"标签云",@"cell自动布局",@"自定义tabbar",@"导航条菜单",@"密码解锁",@"长按解锁、上锁功能",@"",@""];
+    _dataArray = @[@"ScrollView自动无限循环",@"类似FB和TW资料页",@"CoreAnimation可做百分比进度条-波浪效果",@"RefreshControl下拉上拉",@"多级的联系人列表",@"支付宝、微信支付",@"Scan QR Code",@"日期选择器",@"通过剪切图片作为头像",@"表格中下列时放大背景",@"3D旋转标签云",@"单选弹出视图",@"Input输入收回键盘",@"手势解锁",@"标签云",@"cell自动布局",@"自定义tabbar",@"导航条菜单",@"密码解锁",@"长按解锁、上锁功能",@"网页-返回前进刷新分享",@"html解析"];
     _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, DeviceWidth, DeviceHeight-64) style:UITableViewStylePlain];
     [self.view addSubview:_tableView];
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
@@ -92,7 +94,7 @@
     }
     cell.textLabel.font = [UIFont fontWithName:DEFAULT_FONT_NAME size:18];
     cell.textLabel.text = [_dataArray objectAtIndex:indexPath.row];
-    if (indexPath.row == 7) {
+    if (indexPath.row == 6) {
         UIImageView *qrImageView = [[UIImageView alloc]initWithFrame:CGRectMake(180, 6, 30 , 30)];
         qrImageView.image = [UIImage imageNamed:@"QR OK"];
         [cell.contentView addSubview:qrImageView];
@@ -314,6 +316,22 @@
                 MLNavigationController *longPressLockNavigationController=[[MLNavigationController alloc] initWithRootViewController:longPressLockViewController];
                 
                 newFrontController = longPressLockNavigationController;
+                break;
+            }
+            case 20:
+            {
+                TOViewController *toViewController = [[TOViewController alloc]init];
+                MLNavigationController *toNavigationController=[[MLNavigationController alloc] initWithRootViewController:toViewController];
+                
+                newFrontController = toNavigationController;
+                break;
+            }
+            case 21:
+            {
+                HtmlParserViewController *rootViewController = [[HtmlParserViewController alloc]init];
+                MLNavigationController *rootNavigationController=[[MLNavigationController alloc] initWithRootViewController:rootViewController];
+                
+                newFrontController = rootNavigationController;
                 break;
             }
             default:

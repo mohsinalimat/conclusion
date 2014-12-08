@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045974D41A304DFD000A49EA /* TOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045974C11A304DFC000A49EA /* TOViewController.m */; };
+		045974D51A304DFD000A49EA /* TOWebViewControllerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 045974C31A304DFC000A49EA /* TOWebViewControllerLocalizable.strings */; };
+		045974D61A304DFD000A49EA /* TOActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 045974CB1A304DFC000A49EA /* TOActivityChrome.m */; };
+		045974D71A304DFD000A49EA /* TOActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = 045974CD1A304DFC000A49EA /* TOActivitySafari.m */; };
+		045974D81A304DFD000A49EA /* TOWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045974CF1A304DFC000A49EA /* TOWebViewController.m */; };
+		045974D91A304DFD000A49EA /* UIImage+TOWebViewControllerIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 045974D11A304DFD000A49EA /* UIImage+TOWebViewControllerIcons.m */; };
+		045974E91A3055F6000A49EA /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 045974DB1A3055F6000A49EA /* 1.jpg */; };
+		045974EA1A3055F6000A49EA /* FDFontPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045974DE1A3055F6000A49EA /* FDFontPickerViewController.m */; };
+		045974EB1A3055F6000A49EA /* FDLabelConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045974E01A3055F6000A49EA /* FDLabelConfigViewController.m */; };
+		045974EC1A3055F6000A49EA /* FDLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045974E21A3055F6000A49EA /* FDLabelView.m */; };
+		045974ED1A3055F6000A49EA /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 045974E51A3055F6000A49EA /* HTMLNode.m */; };
+		045974EE1A3055F6000A49EA /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 045974E71A3055F6000A49EA /* HTMLParser.m */; };
+		045974EF1A3055F6000A49EA /* iOS6.html in Resources */ = {isa = PBXBuildFile; fileRef = 045974E81A3055F6000A49EA /* iOS6.html */; };
+		045974F21A305615000A49EA /* HtmlParserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045974F11A305615000A49EA /* HtmlParserViewController.m */; };
+		045974F51A3056A0000A49EA /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 045974F41A3056A0000A49EA /* libxml2.dylib */; };
 		045B48BB1A2D58CA009A00C7 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045B48A51A2D58CA009A00C7 /* ActivityViewController.m */; };
 		045B48BC1A2D58CA009A00C7 /* ExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045B48A71A2D58CA009A00C7 /* ExploreViewController.m */; };
 		045B48BD1A2D58CA009A00C7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045B48A91A2D58CA009A00C7 /* HomeViewController.m */; };
@@ -248,6 +263,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045974C01A304DFC000A49EA /* TOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOViewController.h; sourceTree = "<group>"; };
+		045974C11A304DFC000A49EA /* TOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOViewController.m; sourceTree = "<group>"; };
+		045974C41A304DFC000A49EA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		045974C51A304DFC000A49EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		045974C61A304DFC000A49EA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		045974C71A304DFC000A49EA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		045974C81A304DFC000A49EA /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		045974C91A304DFC000A49EA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		045974CA1A304DFC000A49EA /* TOActivityChrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityChrome.h; sourceTree = "<group>"; };
+		045974CB1A304DFC000A49EA /* TOActivityChrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityChrome.m; sourceTree = "<group>"; };
+		045974CC1A304DFC000A49EA /* TOActivitySafari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivitySafari.h; sourceTree = "<group>"; };
+		045974CD1A304DFC000A49EA /* TOActivitySafari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivitySafari.m; sourceTree = "<group>"; };
+		045974CE1A304DFC000A49EA /* TOWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOWebViewController.h; sourceTree = "<group>"; };
+		045974CF1A304DFC000A49EA /* TOWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOWebViewController.m; sourceTree = "<group>"; };
+		045974D01A304DFD000A49EA /* UIImage+TOWebViewControllerIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TOWebViewControllerIcons.h"; sourceTree = "<group>"; };
+		045974D11A304DFD000A49EA /* UIImage+TOWebViewControllerIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TOWebViewControllerIcons.m"; sourceTree = "<group>"; };
+		045974D21A304DFD000A49EA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/TOWebViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		045974D31A304DFD000A49EA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/TOWebViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		045974DB1A3055F6000A49EA /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		045974DD1A3055F6000A49EA /* FDFontPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDFontPickerViewController.h; sourceTree = "<group>"; };
+		045974DE1A3055F6000A49EA /* FDFontPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDFontPickerViewController.m; sourceTree = "<group>"; };
+		045974DF1A3055F6000A49EA /* FDLabelConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDLabelConfigViewController.h; sourceTree = "<group>"; };
+		045974E01A3055F6000A49EA /* FDLabelConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDLabelConfigViewController.m; sourceTree = "<group>"; };
+		045974E11A3055F6000A49EA /* FDLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDLabelView.h; sourceTree = "<group>"; };
+		045974E21A3055F6000A49EA /* FDLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDLabelView.m; sourceTree = "<group>"; };
+		045974E41A3055F6000A49EA /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		045974E51A3055F6000A49EA /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		045974E61A3055F6000A49EA /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		045974E71A3055F6000A49EA /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		045974E81A3055F6000A49EA /* iOS6.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iOS6.html; sourceTree = "<group>"; };
+		045974F01A305615000A49EA /* HtmlParserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlParserViewController.h; sourceTree = "<group>"; };
+		045974F11A305615000A49EA /* HtmlParserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlParserViewController.m; sourceTree = "<group>"; };
+		045974F41A3056A0000A49EA /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		045B48A41A2D58CA009A00C7 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
 		045B48A51A2D58CA009A00C7 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
 		045B48A61A2D58CA009A00C7 /* ExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreViewController.h; sourceTree = "<group>"; };
@@ -657,6 +705,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045974F51A3056A0000A49EA /* libxml2.dylib in Frameworks */,
 				046DDE671A29E76000D2046D /* AlixPaylib_arc.a in Frameworks */,
 				046DDE641A29E76000D2046D /* AlipayRsaLib.a in Frameworks */,
 				046DDE761A29E76000D2046D /* libWeChatSDK.a in Frameworks */,
@@ -678,6 +727,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045974BF1A304DFC000A49EA /* webView网页-返回前进刷新分享 */ = {
+			isa = PBXGroup;
+			children = (
+				045974C01A304DFC000A49EA /* TOViewController.h */,
+				045974C11A304DFC000A49EA /* TOViewController.m */,
+				045974C21A304DFC000A49EA /* TOWebViewController */,
+			);
+			path = "webView网页-返回前进刷新分享";
+			sourceTree = "<group>";
+		};
+		045974C21A304DFC000A49EA /* TOWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				045974C31A304DFC000A49EA /* TOWebViewControllerLocalizable.strings */,
+				045974CA1A304DFC000A49EA /* TOActivityChrome.h */,
+				045974CB1A304DFC000A49EA /* TOActivityChrome.m */,
+				045974CC1A304DFC000A49EA /* TOActivitySafari.h */,
+				045974CD1A304DFC000A49EA /* TOActivitySafari.m */,
+				045974CE1A304DFC000A49EA /* TOWebViewController.h */,
+				045974CF1A304DFC000A49EA /* TOWebViewController.m */,
+				045974D01A304DFD000A49EA /* UIImage+TOWebViewControllerIcons.h */,
+				045974D11A304DFD000A49EA /* UIImage+TOWebViewControllerIcons.m */,
+			);
+			path = TOWebViewController;
+			sourceTree = "<group>";
+		};
+		045974DA1A3055F6000A49EA /* html解析 */ = {
+			isa = PBXGroup;
+			children = (
+				045974F01A305615000A49EA /* HtmlParserViewController.h */,
+				045974F11A305615000A49EA /* HtmlParserViewController.m */,
+				045974DB1A3055F6000A49EA /* 1.jpg */,
+				045974DC1A3055F6000A49EA /* FDLabelView */,
+				045974E31A3055F6000A49EA /* HTMLParser */,
+				045974E81A3055F6000A49EA /* iOS6.html */,
+			);
+			path = "html解析";
+			sourceTree = "<group>";
+		};
+		045974DC1A3055F6000A49EA /* FDLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				045974DD1A3055F6000A49EA /* FDFontPickerViewController.h */,
+				045974DE1A3055F6000A49EA /* FDFontPickerViewController.m */,
+				045974DF1A3055F6000A49EA /* FDLabelConfigViewController.h */,
+				045974E01A3055F6000A49EA /* FDLabelConfigViewController.m */,
+				045974E11A3055F6000A49EA /* FDLabelView.h */,
+				045974E21A3055F6000A49EA /* FDLabelView.m */,
+			);
+			path = FDLabelView;
+			sourceTree = "<group>";
+		};
+		045974E31A3055F6000A49EA /* HTMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				045974E41A3055F6000A49EA /* HTMLNode.h */,
+				045974E51A3055F6000A49EA /* HTMLNode.m */,
+				045974E61A3055F6000A49EA /* HTMLParser.h */,
+				045974E71A3055F6000A49EA /* HTMLParser.m */,
+			);
+			path = HTMLParser;
+			sourceTree = "<group>";
+		};
+		045974F31A305669000A49EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				045974F41A3056A0000A49EA /* libxml2.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		045B48A21A2D58CA009A00C7 /* 导航条菜单 */ = {
 			isa = PBXGroup;
 			children = (
@@ -776,6 +896,7 @@
 		046DDB8B1A29D33D00D2046D = {
 			isa = PBXGroup;
 			children = (
+				045974F31A305669000A49EA /* Frameworks */,
 				046DDB961A29D33D00D2046D /* conclusion */,
 				046DDBB01A29D33E00D2046D /* conclusionTests */,
 				046DDB951A29D33D00D2046D /* Products */,
@@ -840,6 +961,8 @@
 				046DDDB81A29DA4E00D2046D /* 左侧菜单 */,
 				046DDBC31A29D4FE00D2046D /* BaseViewController.h */,
 				046DDBC41A29D4FE00D2046D /* BaseViewController.m */,
+				045974DA1A3055F6000A49EA /* html解析 */,
+				045974BF1A304DFC000A49EA /* webView网页-返回前进刷新分享 */,
 				046A01EB1A2DAB20007F0090 /* 长按解锁、上锁功能 */,
 				046A01D51A2DA89B007F0090 /* 密码解锁 */,
 				045B48A21A2D58CA009A00C7 /* 导航条菜单 */,
@@ -1759,6 +1882,13 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				es,
+				ja,
+				ko,
+				pl,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 046DDB8B1A29D33D00D2046D;
 			productRefGroup = 046DDB951A29D33D00D2046D /* Products */;
@@ -1803,7 +1933,9 @@
 				046DDDF01A29E02F00D2046D /* pull_loading@3x.png in Resources */,
 				046DDDD11A29DEE000D2046D /* 22@2x.png in Resources */,
 				046DDBFA1A29D50F00D2046D /* ListTop.png in Resources */,
+				045974E91A3055F6000A49EA /* 1.jpg in Resources */,
 				046DDEB31A29EBE900D2046D /* dialog_cancel@2x.png in Resources */,
+				045974EF1A3055F6000A49EA /* iOS6.html in Resources */,
 				046DDEB81A29EBE900D2046D /* dialog_ok-disabled.png in Resources */,
 				046DDEAF1A29EBE900D2046D /* calendar_littledot@2x.png in Resources */,
 				046DDEB41A29EBE900D2046D /* dialog_clear-disabled.png in Resources */,
@@ -1842,6 +1974,7 @@
 				046DDE291A29E31900D2046D /* head1.jpg in Resources */,
 				046DDEA91A29EBE900D2046D /* arrow_right@2x.png in Resources */,
 				046DDBF91A29D50F00D2046D /* fragment_home_nodata_plan@2x.png in Resources */,
+				045974D51A304DFD000A49EA /* TOWebViewControllerLocalizable.strings in Resources */,
 				046DDBFF1A29D50F00D2046D /* logo2@2x.png in Resources */,
 				046DDBF81A29D50F00D2046D /* fragment_home_nodata_plan.png in Resources */,
 				046DDEA71A29EBE900D2046D /* arrow_left@2x.png in Resources */,
@@ -1919,7 +2052,9 @@
 				046DDBEE1A29D50F00D2046D /* NSString+Helper.m in Sources */,
 				046DDEDF1A29F04600D2046D /* CustomHeadViewController.m in Sources */,
 				046DDDA61A29D55200D2046D /* UIImage+WebP.m in Sources */,
+				045974EA1A3055F6000A49EA /* FDFontPickerViewController.m in Sources */,
 				0477E3DD1A2C305B00ED1A42 /* HTKSampleCollectionViewCell.m in Sources */,
+				045974EB1A3055F6000A49EA /* FDLabelConfigViewController.m in Sources */,
 				046A01E81A2DA9F3007F0090 /* DMPasscodeInternalField.m in Sources */,
 				046DDDA71A29D55200D2046D /* UIImageView+WebCache.m in Sources */,
 				046DDDF61A29E02F00D2046D /* RefreshTopView.m in Sources */,
@@ -1938,17 +2073,22 @@
 				0477E3B61A2C18CF00ED1A42 /* LockFirstViewController.m in Sources */,
 				045B48BB1A2D58CA009A00C7 /* ActivityViewController.m in Sources */,
 				046DDE211A29E31900D2046D /* CLTreeView_LEVEL1_Cell.m in Sources */,
+				045974D91A304DFD000A49EA /* UIImage+TOWebViewControllerIcons.m in Sources */,
 				045B48C41A2D58CA009A00C7 /* REMenuItem.m in Sources */,
 				046DDE1F1A29E31900D2046D /* CLTreeView_LEVEL0_Cell.m in Sources */,
 				046DDDF11A29E02F00D2046D /* RefreshView.m in Sources */,
+				045974D61A304DFD000A49EA /* TOActivityChrome.m in Sources */,
 				046DDE681A29E76000D2046D /* AlixPayOrder.m in Sources */,
 				0477E4001A2C39B800ED1A42 /* TestViewController2.m in Sources */,
 				046DDDF21A29E02F00D2046D /* RefreshControl.m in Sources */,
 				046DDE751A29E76000D2046D /* WxAliPayViewController.m in Sources */,
+				045974D81A304DFD000A49EA /* TOWebViewController.m in Sources */,
 				046DDEDD1A29F04600D2046D /* CExpandHeader.m in Sources */,
 				046DDE351A29E31900D2046D /* DoubleViewController.m in Sources */,
 				046DDBF01A29D50F00D2046D /* UIImage+Helper.m in Sources */,
 				0477E3C41A2C21D300ED1A42 /* TagCloudViewController.m in Sources */,
+				045974D71A304DFD000A49EA /* TOActivitySafari.m in Sources */,
+				045974EC1A3055F6000A49EA /* FDLabelView.m in Sources */,
 				046A01D81A2DA8B1007F0090 /* PassCodeViewController.m in Sources */,
 				046DDDA91A29D55200D2046D /* SWRevealViewController.m in Sources */,
 				046DDED11A29EE8300D2046D /* UIImage+FixOrientation.m in Sources */,
@@ -1958,12 +2098,14 @@
 				046DDDF71A29E02F00D2046D /* TableViewController.m in Sources */,
 				046DDD1A1A29D55100D2046D /* AFHTTPSessionManager.m in Sources */,
 				046DDE6C1A29E76000D2046D /* SBJSON.m in Sources */,
+				045974F21A305615000A49EA /* HtmlParserViewController.m in Sources */,
 				046DDF151A29F89000D2046D /* PopSelectViewController.m in Sources */,
 				0477E4041A2C39B800ED1A42 /* TestViewController4.m in Sources */,
 				0477E3BA1A2C18CF00ED1A42 /* LLLockViewController.m in Sources */,
 				0477E3A41A2C0D2D00ED1A42 /* TextFieldResignFirstResponderViewController.m in Sources */,
 				045B48C31A2D58CA009A00C7 /* REMenuContainerView.m in Sources */,
 				046DDE6B1A29E76000D2046D /* NSString+SBJSON.m in Sources */,
+				045974EE1A3055F6000A49EA /* HTMLParser.m in Sources */,
 				046DDEBE1A29EBE900D2046D /* THDatePickerViewController.m in Sources */,
 				046DDE221A29E31900D2046D /* CLTreeView_LEVEL1_Model.m in Sources */,
 				046DDDC21A29DC0F00D2046D /* CardViewController.m in Sources */,
@@ -1972,6 +2114,7 @@
 				045B48BF1A2D58CA009A00C7 /* ProfileViewController.m in Sources */,
 				046A01E61A2DA9F3007F0090 /* DMKeychain.m in Sources */,
 				046DDDBB1A29DA4E00D2046D /* LeftMenuViewController.m in Sources */,
+				045974ED1A3055F6000A49EA /* HTMLNode.m in Sources */,
 				046DDD231A29D55100D2046D /* MLNavigationController.m in Sources */,
 				046DDDA81A29D55200D2046D /* SVProgressHUD.m in Sources */,
 				0477E3FE1A2C39B800ED1A42 /* TestViewController1.m in Sources */,
@@ -1995,6 +2138,7 @@
 				046A01EA1A2DA9F3007F0090 /* DMPasscodeInternalViewController.m in Sources */,
 				046DDE6D1A29E76000D2046D /* SBJsonBase.m in Sources */,
 				046DDD1C1A29D55100D2046D /* AFSecurityPolicy.m in Sources */,
+				045974D41A304DFD000A49EA /* TOViewController.m in Sources */,
 				046DDBF11A29D50F00D2046D /* UIView+Helper.m in Sources */,
 				046DDDA41A29D55200D2046D /* UIImage+GIF.m in Sources */,
 				046DDD1E1A29D55100D2046D /* AFURLRequestSerialization.m in Sources */,
@@ -2034,6 +2178,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		045974C31A304DFC000A49EA /* TOWebViewControllerLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045974C41A304DFC000A49EA /* de */,
+				045974C51A304DFC000A49EA /* en */,
+				045974C61A304DFC000A49EA /* es */,
+				045974C71A304DFC000A49EA /* ja */,
+				045974C81A304DFC000A49EA /* ko */,
+				045974C91A304DFC000A49EA /* pl */,
+				045974D21A304DFD000A49EA /* zh-Hans */,
+				045974D31A304DFD000A49EA /* zh-Hant */,
+			);
+			name = TOWebViewControllerLocalizable.strings;
+			sourceTree = "<group>";
+		};
 		046DDBA61A29D33D00D2046D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2143,6 +2302,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/conclusion/vender/FacebookSDK",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = conclusion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -2166,6 +2330,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/conclusion/vender/FacebookSDK",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = conclusion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
